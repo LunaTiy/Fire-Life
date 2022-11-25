@@ -1,0 +1,1268 @@
+; FBX 6.1.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+}
+CreationTime: "2022-07-14 16:25:06:000"
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 58
+	ObjectType: "Model" {
+		Count: 57
+	}
+	ObjectType: "Geometry" {
+		Count: 0
+	}
+	ObjectType: "Pose" {
+		Count: 1
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Model: "Model::Rig", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::root", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hips", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,46.6351,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::spine", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,34.7600,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0001,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::chest", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,31.6200,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0001,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::shoulder.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",38.8709,52.8215,-5.3400
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,0.0001
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::upper_arm.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",14.0809,-4.6434,0.1491
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.2382,0.2057,0.5271
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::forearm.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",41.5302,-0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.2401,-0.2035,-0.5281
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hand.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",45.9747,0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,0.0001
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_index_01.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",31.3909,0.0000,8.7307
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_index_02.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",8.2883,-0.0001,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_index_03.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",5.6355,-0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::thumb_01.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",12.5229,-2.6150,11.8803
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::thumb_02.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,-0.0000,8.3329
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::thumb_03.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,0.0000,6.6851
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_middle_01.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",32.5373,0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_middle_02.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",8.7625,-0.0001,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_middle_03.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",6.4307,-0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_ring_01.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",31.4380,0.0000,-8.3518
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0001,-0.0001,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_ring_02.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",7.4196,-0.0001,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0001,0.0001,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_ring_03.L", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",6.3431,-0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::shoulder.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-38.8709,52.8215,-5.3400
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0001,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::upper_arm.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-14.0809,-4.6434,0.1491
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.7239,0.2404,-0.6162
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::forearm.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-41.5289,-0.0605,-0.3242
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.7214,-0.2482,0.6132
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hand.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-45.9747,-0.0001,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_index_01.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-31.3909,-0.0000,8.7307
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_index_02.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-8.2883,-0.0001,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_index_03.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-5.6355,-0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::thumb_01.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-12.5229,-2.6151,11.8803
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::thumb_02.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,-0.0000,8.3329
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::thumb_03.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,-0.0000,6.6851
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_middle_01.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-32.5373,-0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_middle_02.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-8.7625,-0.0001,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_middle_03.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-6.4307,0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_ring_01.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-31.4380,-0.0000,-8.3518
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0001,0.0001,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_ring_02.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-7.4196,-0.0001,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0001,-0.0001,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::f_ring_03.R", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-6.3431,0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::head", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,55.6199,5.7711
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0002,0.0001,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::jaw", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,7.6529,2.5391
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0001,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellitesRoot", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,43.2273,-50.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellite01", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,-56.2424,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellite02", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-48.7073,-28.1212,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,0.0001
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellite03", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-48.7074,28.1212,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-0.0000,-0.0001
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellite04", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,56.2424,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellite05", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",48.7073,28.1212,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0001
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::backSatellite06", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",48.7074,-28.1212,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,-0.0001
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatelliteRoot", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,18.3649,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatellitel01", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,13.5000,36.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,0.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatellitel02", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",31.1769,13.5000,18.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,60.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatellitel03", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",31.1769,13.5000,-18.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,120.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatellite04", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,13.5000,-36.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-180.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatellite05", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-31.1769,13.5000,-18.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-120.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::hipsSatellite06", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-31.1769,13.5000,18.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.0000,-60.0000,-0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::footSatellite01", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.0000,-0.0000,40.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::footSatellite02", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",40.0000,0.0000,0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::footSatellite03", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-0.0000,0.0000,-40.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Model: "Model::footSatellite04", "Limb" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-40.0000,-0.0000,-0.0000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.0000,-0.0000,0.0000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.0,1.0,1.0
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Skeleton"
+	}
+	Pose: "Pose::BIND_POSES", "BindPose" {
+		Type: "BindPose"
+		Version: 100
+		Properties60:  {
+		}
+		NbPoseNodes: 57
+		PoseNode:  {
+			Node: "Model::Rig"
+			Matrix: 1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000,0.000000043711388,0.000000000000000,0.000000000000000,-0.000000043711388,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::root"
+			Matrix: 1.000000000000000,-0.000000135102567,0.000000000000021,0.000000000000000,0.000000194707184,1.000000000000000,-0.000000313916473,0.000000000000000,0.000000000000021,0.000000313916473,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hips"
+			Matrix: 1.000000000000000,-0.000000135102553,0.000000019096412,0.000000000000000,0.000000194707184,1.000000000000000,0.000000301226351,0.000000000000000,-0.000000019096488,-0.000000301226351,1.000000000000000,0.000000000000000,-0.000000162707693,46.635108947753906,-0.000001776212002,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::spine"
+			Matrix: 1.000000000000000,-0.000000014460518,-0.000000331931204,0.000000000000000,0.000000074064815,1.000000000000000,-0.000001003475631,0.000000000000000,0.000000331931233,0.000001003475631,1.000000000000000,0.000000000000000,-0.000003648389338,81.395095825195312,0.000003557892569,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::chest"
+			Matrix: 1.000000000000000,-0.000000074742978,-0.000000000000003,0.000000000000000,0.000000134347616,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000057,-0.000000043711388,1.000000000000000,0.000000000000000,0.000000121004859,113.015090942382812,0.000004940046438,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::shoulder.L"
+			Matrix: 1.000000000000000,0.000002092561999,-0.000000846603314,0.000000000000000,-0.000002032958037,1.000000000000000,-0.000000802890156,0.000000000000000,0.000000846601665,0.000000802891918,1.000000000000000,0.000000000000000,38.870914459228516,165.836563110351562,-5.339981079101562,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::upper_arm.L"
+			Matrix: 0.999951243400574,0.009201139211655,-0.003591004526243,0.000000000000000,-0.009215991944075,0.999948918819427,-0.004158385097980,0.000000000000000,0.003552559530362,0.004191276617348,0.999984920024872,0.000000000000000,52.951801300048828,161.193191528320312,-5.190857410430908,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::forearm.L"
+			Matrix: 1.000000000000000,-0.000001692193905,0.000000043306425,0.000000000000000,0.000001751838568,1.000000000000000,0.000000046039698,0.000000000000000,-0.000000042840838,-0.000000046971017,1.000000000000000,0.000000000000000,94.479980468750000,161.575302124023438,-5.339992523193359,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hand.L"
+			Matrix: 0.999999940395355,-0.000000036926227,-0.000000048036050,0.000000000000000,0.000000096571000,1.000000000000000,-0.000000005032486,0.000000000000000,0.000000048501711,0.000000004101089,1.000000000000000,0.000000000000000,140.454681396484375,161.575225830078125,-5.339990615844727,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_index_01.L"
+			Matrix: 0.999999940395355,-0.000000112165552,0.000000067027102,0.000000000000000,0.000000171810314,1.000000000000000,0.000000042779998,0.000000000000000,-0.000000066561434,-0.000000043711388,1.000000000000000,0.000000000000000,171.845535278320312,161.575225830078125,3.390665054321289,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_index_02.L"
+			Matrix: 0.999999940395355,0.000000007043091,-0.000000000028123,0.000000000000000,0.000000052601678,1.000000000000000,0.000000042779991,0.000000000000000,0.000000000493785,-0.000000043711388,1.000000000000000,0.000000000000000,180.133789062500000,161.575164794921875,3.390666007995605,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_index_03.L"
+			Matrix: 0.999999940395355,0.000000007043091,-0.000000000028123,0.000000000000000,0.000000052601678,1.000000000000000,0.000000042779991,0.000000000000000,0.000000000493785,-0.000000043711388,1.000000000000000,0.000000000000000,185.769256591796875,161.575164794921875,3.390666007995605,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::thumb_01.L"
+			Matrix: 0.999999940395355,-0.000000094149456,-0.000000162482479,0.000000000000000,0.000000153794190,1.000000000000000,-0.000000252861810,0.000000000000000,0.000000162948169,0.000000251930402,1.000000000000000,0.000000000000000,152.977600097656250,158.960174560546875,6.540352821350098,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::thumb_02.L"
+			Matrix: 0.999999880790710,-0.000000094149456,-0.000000162482507,0.000000000000000,0.000000153794275,1.000000000000000,0.000000376959463,0.000000000000000,0.000000162948126,-0.000000377890871,1.000000000000000,0.000000000000000,152.977600097656250,158.960174560546875,14.873282432556152,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::thumb_03.L"
+			Matrix: 0.999999880790710,-0.000000020127846,-0.000000047787164,0.000000000000000,0.000000079772640,1.000000000000000,0.000000281198567,0.000000000000000,0.000000048252836,-0.000000282129974,1.000000000000000,0.000000000000000,152.977600097656250,158.960174560546875,21.558345794677734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_middle_01.L"
+			Matrix: 0.999999940395355,-0.000000112165537,0.000000002879345,0.000000000000000,0.000000171810314,1.000000000000000,0.000000042779995,0.000000000000000,-0.000000002413685,-0.000000043711388,1.000000000000000,0.000000000000000,172.992004394531250,161.575225830078125,-5.339990615844727,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_middle_02.L"
+			Matrix: 0.999999940395355,-0.000000052560900,-0.000000074995739,0.000000000000000,0.000000112205669,1.000000000000000,-0.000000031369844,0.000000000000000,0.000000075461394,0.000000030438443,1.000000000000000,0.000000000000000,181.754501342773438,161.575164794921875,-5.339992046356201,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_middle_03.L"
+			Matrix: 0.999999940395355,-0.000000052560900,-0.000000000489943,0.000000000000000,0.000000112205669,1.000000000000000,0.000000042779995,0.000000000000000,0.000000000955602,-0.000000043711388,1.000000000000000,0.000000000000000,188.185226440429688,161.575164794921875,-5.339992046356201,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_ring_01.L"
+			Matrix: 0.999999940395355,-0.000000112165651,0.000002008514912,0.000000000000000,0.000000171806192,1.000000000000000,0.000002099331141,0.000000000000000,-0.000002008049478,-0.000002100262236,1.000000000000000,0.000000000000000,171.892700195312500,161.575225830078125,-13.691800117492676,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_ring_02.L"
+			Matrix: 0.999999940395355,-0.000000052556928,-0.000000003140942,0.000000000000000,0.000000112201697,1.000000000000000,0.000000042779838,0.000000000000000,0.000000003606601,-0.000000043711388,1.000000000000000,0.000000000000000,179.312286376953125,161.575164794921875,-13.691791534423828,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_ring_03.L"
+			Matrix: 0.999999940395355,-0.000000052556928,-0.000000003140942,0.000000000000000,0.000000112201697,1.000000000000000,0.000000042779838,0.000000000000000,0.000000003606601,-0.000000043711388,1.000000000000000,0.000000000000000,185.655380249023438,161.575164794921875,-13.691791534423828,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::shoulder.R"
+			Matrix: 1.000000000000000,-0.000000074742943,-0.000000846603427,0.000000000000000,0.000000134345683,1.000000000000000,-0.000002233403848,0.000000000000000,0.000000846603655,0.000002233403848,1.000000000000000,0.000000000000000,-38.870914459228516,165.836593627929688,-5.339981079101562,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::upper_arm.R"
+			Matrix: 0.999933421611786,-0.010755344294012,-0.004197383299470,0.000000000000000,0.010701604187489,0.999862909317017,-0.012636299245059,0.000000000000000,0.004332717042416,0.012590539641678,0.999911308288574,0.000000000000000,-52.951797485351562,161.193191528320312,-5.190857410430908,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::forearm.R"
+			Matrix: 1.000000000000000,-0.000000328482940,0.000000019557760,0.000000000000000,0.000000389488207,1.000000000000000,0.000000040917421,0.000000000000000,-0.000000019092113,-0.000000039986098,1.000000000000000,0.000000000000000,-94.479980468750000,161.575317382812500,-5.339996814727783,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hand.R"
+			Matrix: 1.000000000000000,-0.000000027525576,-0.000000045651795,0.000000000000000,0.000000088530825,1.000000000000000,-0.000000241588339,0.000000000000000,0.000000046117478,0.000000242519633,1.000000000000000,0.000000000000000,-140.454681396484375,161.575256347656250,-5.339991569519043,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_index_01.R"
+			Matrix: 1.000000000000000,-0.000000027525552,0.000000069411342,0.000000000000000,0.000000088530818,1.000000000000000,-0.000000193775890,0.000000000000000,-0.000000068945667,0.000000194707184,1.000000000000000,0.000000000000000,-171.845535278320312,161.575256347656250,3.390665054321289,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_index_02.R"
+			Matrix: 1.000000000000000,-0.000000087130552,-0.000000084120110,0.000000000000000,0.000000148135783,1.000000000000000,-0.000000278389479,0.000000000000000,0.000000084585807,0.000000279320773,1.000000000000000,0.000000000000000,-180.133789062500000,161.575195312500000,3.390666007995605,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_index_03.R"
+			Matrix: 1.000000000000000,-0.000000087130530,-0.000000000301085,0.000000000000000,0.000000148135783,1.000000000000000,-0.000000193775890,0.000000000000000,0.000000000766768,0.000000194707184,1.000000000000000,0.000000000000000,-185.769256591796875,161.575195312500000,3.390666007995605,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::thumb_01.R"
+			Matrix: 1.000000000000000,-0.000000027525576,-0.000000045651831,0.000000000000000,0.000000088530847,1.000000000000000,0.000000225838050,0.000000000000000,0.000000046117471,-0.000000224906756,1.000000000000000,0.000000000000000,-152.977600097656250,158.960205078125000,6.540350914001465,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::thumb_02.R"
+			Matrix: 1.000000000000000,-0.000000027525559,-0.000000045651799,0.000000000000000,0.000000088530811,1.000000000000000,-0.000000193775890,0.000000000000000,0.000000046117478,0.000000194707184,1.000000000000000,0.000000000000000,-152.977600097656250,158.960205078125000,14.873280525207520,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::thumb_03.R"
+			Matrix: 1.000000000000000,-0.000000027525566,0.000000069043509,0.000000000000000,0.000000088530840,1.000000000000000,-0.000000193775890,0.000000000000000,-0.000000068577833,0.000000194707184,1.000000000000000,0.000000000000000,-152.977600097656250,158.960205078125000,21.558343887329102,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_middle_01.R"
+			Matrix: 1.000000000000000,-0.000000027525580,-0.000000000948316,0.000000000000000,0.000000088530840,1.000000000000000,-0.000000193775890,0.000000000000000,0.000000001413994,0.000000194707184,1.000000000000000,0.000000000000000,-172.992004394531250,161.575256347656250,-5.339991569519043,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_middle_02.R"
+			Matrix: 1.000000000000000,-0.000000087130807,-0.000000073235483,0.000000000000000,0.000000148136053,1.000000000000000,-0.000000267925714,0.000000000000000,0.000000073701187,0.000000268857008,1.000000000000000,0.000000000000000,-181.754501342773438,161.575195312500000,-5.339993000030518,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_middle_03.R"
+			Matrix: 1.000000000000000,-0.000000027526145,-0.000000000592349,0.000000000000000,0.000000088531401,1.000000000000000,-0.000000193775890,0.000000000000000,0.000000001058027,0.000000194707184,1.000000000000000,0.000000000000000,-188.185226440429688,161.575195312500000,-5.339993000030518,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_ring_01.R"
+			Matrix: 1.000000000000000,-0.000000027525495,-0.000002102202643,0.000000000000000,0.000000088526015,1.000000000000000,-0.000002250326816,0.000000000000000,0.000002102668532,0.000002251257911,1.000000000000000,0.000000000000000,-171.892700195312500,161.575256347656250,-13.691800117492676,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_ring_02.R"
+			Matrix: 0.999999940395355,-0.000000087125265,-0.000000001139128,0.000000000000000,0.000000148130511,1.000000000000000,-0.000000193776316,0.000000000000000,0.000000001605031,0.000000194707411,1.000000000000000,0.000000000000000,-179.312286376953125,161.575195312500000,-13.691791534423828,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::f_ring_03.R"
+			Matrix: 0.999999940395355,-0.000000087125265,-0.000000001139128,0.000000000000000,0.000000148130511,1.000000000000000,-0.000000193776089,0.000000000000000,0.000000001605031,0.000000194707184,1.000000000000000,0.000000000000000,-185.655380249023438,161.575195312500000,-13.691791534423828,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::head"
+			Matrix: 1.000000000000000,-0.000000074742935,-0.000001043081397,0.000000000000000,0.000000134344845,1.000000000000000,-0.000002604726660,0.000000000000000,0.000001043081738,0.000002604726660,1.000000000000000,0.000000000000000,-0.000004235173947,168.635009765625000,5.771079540252686,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::jaw"
+			Matrix: 1.000000000000000,-0.000000074740420,-0.000000079674869,0.000000000000000,0.000000134344887,1.000000000000000,-0.000002122257229,0.000000000000000,0.000000079675146,0.000002122257229,1.000000000000000,0.000000000000000,-0.000014487767658,176.287918090820312,8.310167312622070,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellitesRoot"
+			Matrix: 1.000000000000000,-0.000000074742978,-0.000000000000003,0.000000000000000,0.000000134347616,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000057,-0.000000043711388,1.000000000000000,0.000000000000000,-0.000001149774903,156.242401123046875,-49.999992370605469,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellite01"
+			Matrix: 1.000000000000000,-0.000000074742978,-0.000000000000003,0.000000000000000,0.000000134347616,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000057,-0.000000043711388,1.000000000000000,0.000000000000000,-0.000000644926672,100.000000000000000,-49.999996185302734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellite02"
+			Matrix: 1.000000000000000,0.000001451135972,0.000000000000063,0.000000000000000,-0.000001391531327,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000057,-0.000000043711388,1.000000000000000,0.000000000000000,-48.707351684570312,128.121200561523438,-49.999996185302734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellite03"
+			Matrix: 1.000000000000000,-0.000001600622113,0.000000127156554,0.000000000000000,0.000001660226872,1.000000000000000,-0.000000544387660,0.000000000000000,-0.000000127155715,0.000000544387888,1.000000000000000,0.000000000000000,-48.707351684570312,184.363601684570312,-49.999996185302734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellite04"
+			Matrix: 1.000000000000000,-0.000000074742992,0.000000381469761,0.000000000000000,0.000000134347559,1.000000000000000,0.000000186762605,0.000000000000000,-0.000000381469818,-0.000000186762577,1.000000000000000,0.000000000000000,0.000002160074018,212.484802246093750,-49.999996185302734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellite05"
+			Matrix: 1.000000000000000,0.000001451135745,0.000000127156625,0.000000000000000,-0.000001391531100,1.000000000000000,0.000000170867779,0.000000000000000,-0.000000127156440,-0.000000170867963,1.000000000000000,0.000000000000000,48.707351684570312,184.363601684570312,-49.999996185302734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::backSatellite06"
+			Matrix: 1.000000000000000,-0.000001600622113,-0.000000000000088,0.000000000000000,0.000001660226758,1.000000000000000,0.000000282129974,0.000000000000000,-0.000000000000435,-0.000000282129974,1.000000000000000,0.000000000000000,48.707351684570312,128.121200561523438,-49.999996185302734,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatelliteRoot"
+			Matrix: 1.000000000000000,-0.000000075497894,0.000000000000000,0.000000000000000,0.000000135102525,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000025,-0.000000043711388,1.000000000000000,0.000000000000000,0.000002026557922,65.000000000000000,0.000001907348633,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatellitel01"
+			Matrix: 1.000000000000000,-0.000000075497894,0.000000000000000,0.000000000000000,0.000000135102525,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000025,-0.000000043711388,1.000000000000000,0.000000000000000,0.000000923870743,78.500000000000000,36.000003814697266,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatellitel02"
+			Matrix: 0.499999940395355,-0.000000037642724,-0.866025447845459,0.000000000000000,0.000000065091612,1.000000000000000,-0.000000040298165,0.000000000000000,0.866025447845459,0.000000015397211,0.499999940395355,0.000000000000000,31.176921844482422,78.500000000000000,18.000001907348633,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatellitel03"
+			Matrix: -0.500000178813934,0.000000168557136,-0.866025209426880,0.000000000000000,0.000000124955690,1.000000000000000,0.000000156902502,0.000000000000000,0.866025209426880,0.000000021855659,-0.499999761581421,0.000000000000000,31.176916122436523,78.500007629394531,-18.000005722045898,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatellite04"
+			Matrix: -1.000000000000000,-0.000000075497979,0.000000618599586,0.000000000000000,-0.000000015893235,1.000000000000000,0.000000194707226,0.000000000000000,-0.000000618599586,0.000000194707184,-1.000000000000000,0.000000000000000,0.000000923872562,78.500000000000000,-36.000000000000000,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatellite05"
+			Matrix: -0.499999701976776,-0.000000113353089,0.866025626659393,0.000000000000000,0.000000325118208,1.000000000000000,0.000000284183045,0.000000000000000,-0.866025626659393,0.000000372033043,-0.499999880790710,0.000000000000000,-31.176918029785156,78.500000000000000,-17.999998092651367,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::hipsSatellite06"
+			Matrix: 0.500000238418579,-0.000000113353067,0.866025269031525,0.000000000000000,0.000000452235042,1.000000000000000,-0.000000095796565,0.000000000000000,-0.866025269031525,0.000000387926178,0.500000238418579,0.000000000000000,-31.176910400390625,78.500000000000000,18.000011444091797,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::footSatellite01"
+			Matrix: 1.000000000000000,-0.000000075497915,-0.000000000000025,0.000000000000000,0.000000135102539,1.000000000000000,0.000000043711388,0.000000000000000,0.000000000000000,-0.000000043711388,1.000000000000000,0.000000000000000,-0.000000000000853,-0.000001748455588,40.000000000000000,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::footSatellite02"
+			Matrix: 1.000000000000000,-0.000000075497901,0.000000054639230,0.000000000000000,0.000000135102525,1.000000000000000,0.000000098350625,0.000000000000000,-0.000000054639262,-0.000000098350618,1.000000000000000,0.000000000000000,40.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::footSatellite03"
+			Matrix: 1.000000000000000,-0.000000134604022,-0.000000000000006,0.000000000000000,0.000000194208639,1.000000000000000,0.000000043711388,0.000000000000000,-0.000000000000021,-0.000000043711388,1.000000000000000,0.000000000000000,0.000000000000623,-0.000000174845582,-40.000000000000000,1.000000000000000
+		}
+		PoseNode:  {
+			Node: "Model::footSatellite04"
+			Matrix: 1.000000000000000,-0.000000061312377,0.000000054639230,0.000000000000000,0.000000120917008,1.000000000000000,0.000000098350625,0.000000000000000,-0.000000054639258,-0.000000098350618,1.000000000000000,0.000000000000000,-40.000000000000000,-0.000000453936991,-0.000000000000020,1.000000000000000
+		}
+	}
+	GlobalSettings:  {
+		Version: 1000
+		Properties60:  {
+			Property: "UpAxis", "int", "",1
+			Property: "UpAxisSign", "int", "",1
+			Property: "FrontAxis", "int", "",2
+			Property: "FrontAxisSign", "int", "",1
+			Property: "CoordAxis", "int", "",0
+			Property: "CoordAxisSign", "int", "",1
+			Property: "UnitScaleFactor", "double", "",1
+		}
+	}
+}
+
+; Object relations
+;------------------------------------------------------------------
+
+Relations:  {
+	Model: "Model::Rig", "Limb" {
+	}
+	Model: "Model::root", "Limb" {
+	}
+	Model: "Model::hips", "Limb" {
+	}
+	Model: "Model::spine", "Limb" {
+	}
+	Model: "Model::chest", "Limb" {
+	}
+	Model: "Model::shoulder.L", "Limb" {
+	}
+	Model: "Model::upper_arm.L", "Limb" {
+	}
+	Model: "Model::forearm.L", "Limb" {
+	}
+	Model: "Model::hand.L", "Limb" {
+	}
+	Model: "Model::f_index_01.L", "Limb" {
+	}
+	Model: "Model::f_index_02.L", "Limb" {
+	}
+	Model: "Model::f_index_03.L", "Limb" {
+	}
+	Model: "Model::thumb_01.L", "Limb" {
+	}
+	Model: "Model::thumb_02.L", "Limb" {
+	}
+	Model: "Model::thumb_03.L", "Limb" {
+	}
+	Model: "Model::f_middle_01.L", "Limb" {
+	}
+	Model: "Model::f_middle_02.L", "Limb" {
+	}
+	Model: "Model::f_middle_03.L", "Limb" {
+	}
+	Model: "Model::f_ring_01.L", "Limb" {
+	}
+	Model: "Model::f_ring_02.L", "Limb" {
+	}
+	Model: "Model::f_ring_03.L", "Limb" {
+	}
+	Model: "Model::shoulder.R", "Limb" {
+	}
+	Model: "Model::upper_arm.R", "Limb" {
+	}
+	Model: "Model::forearm.R", "Limb" {
+	}
+	Model: "Model::hand.R", "Limb" {
+	}
+	Model: "Model::f_index_01.R", "Limb" {
+	}
+	Model: "Model::f_index_02.R", "Limb" {
+	}
+	Model: "Model::f_index_03.R", "Limb" {
+	}
+	Model: "Model::thumb_01.R", "Limb" {
+	}
+	Model: "Model::thumb_02.R", "Limb" {
+	}
+	Model: "Model::thumb_03.R", "Limb" {
+	}
+	Model: "Model::f_middle_01.R", "Limb" {
+	}
+	Model: "Model::f_middle_02.R", "Limb" {
+	}
+	Model: "Model::f_middle_03.R", "Limb" {
+	}
+	Model: "Model::f_ring_01.R", "Limb" {
+	}
+	Model: "Model::f_ring_02.R", "Limb" {
+	}
+	Model: "Model::f_ring_03.R", "Limb" {
+	}
+	Model: "Model::head", "Limb" {
+	}
+	Model: "Model::jaw", "Limb" {
+	}
+	Model: "Model::backSatellitesRoot", "Limb" {
+	}
+	Model: "Model::backSatellite01", "Limb" {
+	}
+	Model: "Model::backSatellite02", "Limb" {
+	}
+	Model: "Model::backSatellite03", "Limb" {
+	}
+	Model: "Model::backSatellite04", "Limb" {
+	}
+	Model: "Model::backSatellite05", "Limb" {
+	}
+	Model: "Model::backSatellite06", "Limb" {
+	}
+	Model: "Model::hipsSatelliteRoot", "Limb" {
+	}
+	Model: "Model::hipsSatellitel01", "Limb" {
+	}
+	Model: "Model::hipsSatellitel02", "Limb" {
+	}
+	Model: "Model::hipsSatellitel03", "Limb" {
+	}
+	Model: "Model::hipsSatellite04", "Limb" {
+	}
+	Model: "Model::hipsSatellite05", "Limb" {
+	}
+	Model: "Model::hipsSatellite06", "Limb" {
+	}
+	Model: "Model::footSatellite01", "Limb" {
+	}
+	Model: "Model::footSatellite02", "Limb" {
+	}
+	Model: "Model::footSatellite03", "Limb" {
+	}
+	Model: "Model::footSatellite04", "Limb" {
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	Connect: "OO", "Model::Rig", "Model::Scene"
+	Connect: "OO", "Model::root", "Model::Rig"
+	Connect: "OO", "Model::hips", "Model::root"
+	Connect: "OO", "Model::spine", "Model::hips"
+	Connect: "OO", "Model::chest", "Model::spine"
+	Connect: "OO", "Model::shoulder.L", "Model::chest"
+	Connect: "OO", "Model::upper_arm.L", "Model::shoulder.L"
+	Connect: "OO", "Model::forearm.L", "Model::upper_arm.L"
+	Connect: "OO", "Model::hand.L", "Model::forearm.L"
+	Connect: "OO", "Model::f_index_01.L", "Model::hand.L"
+	Connect: "OO", "Model::f_index_02.L", "Model::f_index_01.L"
+	Connect: "OO", "Model::f_index_03.L", "Model::f_index_02.L"
+	Connect: "OO", "Model::thumb_01.L", "Model::hand.L"
+	Connect: "OO", "Model::thumb_02.L", "Model::thumb_01.L"
+	Connect: "OO", "Model::thumb_03.L", "Model::thumb_02.L"
+	Connect: "OO", "Model::f_middle_01.L", "Model::hand.L"
+	Connect: "OO", "Model::f_middle_02.L", "Model::f_middle_01.L"
+	Connect: "OO", "Model::f_middle_03.L", "Model::f_middle_02.L"
+	Connect: "OO", "Model::f_ring_01.L", "Model::hand.L"
+	Connect: "OO", "Model::f_ring_02.L", "Model::f_ring_01.L"
+	Connect: "OO", "Model::f_ring_03.L", "Model::f_ring_02.L"
+	Connect: "OO", "Model::shoulder.R", "Model::chest"
+	Connect: "OO", "Model::upper_arm.R", "Model::shoulder.R"
+	Connect: "OO", "Model::forearm.R", "Model::upper_arm.R"
+	Connect: "OO", "Model::hand.R", "Model::forearm.R"
+	Connect: "OO", "Model::f_index_01.R", "Model::hand.R"
+	Connect: "OO", "Model::f_index_02.R", "Model::f_index_01.R"
+	Connect: "OO", "Model::f_index_03.R", "Model::f_index_02.R"
+	Connect: "OO", "Model::thumb_01.R", "Model::hand.R"
+	Connect: "OO", "Model::thumb_02.R", "Model::thumb_01.R"
+	Connect: "OO", "Model::thumb_03.R", "Model::thumb_02.R"
+	Connect: "OO", "Model::f_middle_01.R", "Model::hand.R"
+	Connect: "OO", "Model::f_middle_02.R", "Model::f_middle_01.R"
+	Connect: "OO", "Model::f_middle_03.R", "Model::f_middle_02.R"
+	Connect: "OO", "Model::f_ring_01.R", "Model::hand.R"
+	Connect: "OO", "Model::f_ring_02.R", "Model::f_ring_01.R"
+	Connect: "OO", "Model::f_ring_03.R", "Model::f_ring_02.R"
+	Connect: "OO", "Model::head", "Model::chest"
+	Connect: "OO", "Model::jaw", "Model::head"
+	Connect: "OO", "Model::backSatellitesRoot", "Model::chest"
+	Connect: "OO", "Model::backSatellite01", "Model::backSatellitesRoot"
+	Connect: "OO", "Model::backSatellite02", "Model::backSatellitesRoot"
+	Connect: "OO", "Model::backSatellite03", "Model::backSatellitesRoot"
+	Connect: "OO", "Model::backSatellite04", "Model::backSatellitesRoot"
+	Connect: "OO", "Model::backSatellite05", "Model::backSatellitesRoot"
+	Connect: "OO", "Model::backSatellite06", "Model::backSatellitesRoot"
+	Connect: "OO", "Model::hipsSatelliteRoot", "Model::hips"
+	Connect: "OO", "Model::hipsSatellitel01", "Model::hipsSatelliteRoot"
+	Connect: "OO", "Model::hipsSatellitel02", "Model::hipsSatelliteRoot"
+	Connect: "OO", "Model::hipsSatellitel03", "Model::hipsSatelliteRoot"
+	Connect: "OO", "Model::hipsSatellite04", "Model::hipsSatelliteRoot"
+	Connect: "OO", "Model::hipsSatellite05", "Model::hipsSatelliteRoot"
+	Connect: "OO", "Model::hipsSatellite06", "Model::hipsSatelliteRoot"
+	Connect: "OO", "Model::footSatellite01", "Model::root"
+	Connect: "OO", "Model::footSatellite02", "Model::root"
+	Connect: "OO", "Model::footSatellite03", "Model::root"
+	Connect: "OO", "Model::footSatellite04", "Model::root"
+}
+;Takes and animation section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
