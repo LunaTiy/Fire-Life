@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider), typeof(Rigidbody))]
 public class FirecampController : MonoBehaviour
 {
     public event Action OnHealthChanged;
@@ -51,14 +52,14 @@ public class FirecampController : MonoBehaviour
         GetLogs();
         StartCoroutine(LoseHealthRoutine());
     }
-    
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (!collision.gameObject.TryGetComponent(out IBurnable burnable))
-            return;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!other.gameObject.TryGetComponent(out IBurnable burnable))
+            return;
+    
         Health += burnable.Health;
-        Destroy(collision.gameObject);
+        Destroy(other.gameObject);
     }
 
     private void GetLogs()
