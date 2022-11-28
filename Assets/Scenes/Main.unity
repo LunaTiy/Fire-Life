@@ -162,6 +162,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1140122951}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &294896672 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8965538634940441330, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1140122951}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294896666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0edf5f6f5084a4eb59e86c523cb5d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &307948168
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +753,7 @@ GameObject:
   - component: {fileID: 969196470}
   - component: {fileID: 969196472}
   - component: {fileID: 969196471}
+  - component: {fileID: 969196473}
   m_Layer: 5
   m_Name: Dash
   m_TagString: Untagged
@@ -806,6 +819,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969196469}
   m_CullTransparentMesh: 1
+--- !u!114 &969196473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969196469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0824c4dbdb96e094f91985e3b8dbee06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _character: {fileID: 294896672}
 --- !u!114 &976662869 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 976662869, guid: 45e99415f7c19dc4e92b2e6aa30963d6,

@@ -6,15 +6,24 @@ public class Character : MonoBehaviour, IControllable, IViewable
 {
     public event Action OnChangedPosition;
 
+    [Header("References")]
     [SerializeField] private CharacterController _characterController;
     [SerializeField] private Animator _animator;
-    [Space] [SerializeField] private float _speed;
+    
+    [Space] [Header("Character characteristics")]
+    [SerializeField] private float _speed;
     [SerializeField] private float _angularSpeed;
     [SerializeField] private float _gravityForce;
+    [SerializeField] private float _dashSpeed = 70f;
+    [SerializeField] private float _dashDuration = 2f;
+    [SerializeField] private float _dashReload = 5f;
+
+    private static readonly int Walk = Animator.StringToHash("Walk");
 
     private float _gravityAcceleration;
     private Vector3 _moveVector;
-    private static readonly int Walk = Animator.StringToHash("Walk");
+    private bool _isReloadingDash;
+    private float _savedSpeedAfterDash;
 
     public float Speed => _speed;
     public Vector3 Position => transform.position;
@@ -29,6 +38,34 @@ public class Character : MonoBehaviour, IControllable, IViewable
     public void SetDirection(Vector3 direction)
     {
         _moveVector = direction;
+    }
+
+    public void Dash()
+    {
+        if (_isReloadingDash)
+            return;
+
+        _savedSpeedAfterDash = _speed;
+        _speed = _dashSpeed;
+        
+        Move();
+        
+        _isReloadingDash = true;
+        Invoke(nameof(StopDash), _dashDuration);
+    }
+
+    private void StopDash()
+    {
+        CancelInvoke(nameof(StopDash));
+
+        _speed = _savedSpeedAfterDash;
+        Invoke(nameof(ResetDash), _dashReload);
+    }
+
+    private void ResetDash()
+    {
+        CancelInvoke(nameof(ResetDash));
+        _isReloadingDash = false;
     }
 
     private void Move()
