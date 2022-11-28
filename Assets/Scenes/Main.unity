@@ -162,12 +162,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1140122951}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &294896671 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -4988258575843625712, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1140122951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &307948168
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,22 +761,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 294896669, guid: 45e99415f7c19dc4e92b2e6aa30963d6, type: 3}
-      propertyPath: _gravityForce
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 294896670, guid: 45e99415f7c19dc4e92b2e6aa30963d6, type: 3}
-      propertyPath: m_Height
-      value: 2.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 294896670, guid: 45e99415f7c19dc4e92b2e6aa30963d6, type: 3}
-      propertyPath: m_Radius
-      value: 0.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 294896670, guid: 45e99415f7c19dc4e92b2e6aa30963d6, type: 3}
-      propertyPath: m_Center.y
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3972024285425991496, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
         type: 3}
       propertyPath: m_Name
@@ -806,7 +784,7 @@ PrefabInstance:
     - target: {fileID: 4347283873449256434, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 243.98335
+      value: 239.54
       objectReference: {fileID: 0}
     - target: {fileID: 4347283873449256434, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
         type: 3}
@@ -843,16 +821,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8965538634940441330, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
-        type: 3}
-      propertyPath: _speed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8965538634940441330, guid: 45e99415f7c19dc4e92b2e6aa30963d6,
-        type: 3}
-      propertyPath: _animator
-      value: 
-      objectReference: {fileID: 294896671}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45e99415f7c19dc4e92b2e6aa30963d6, type: 3}
 --- !u!1 &1286626418
