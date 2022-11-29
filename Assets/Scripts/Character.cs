@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-[RequireComponent(typeof(Character), typeof(Animator))]
+[RequireComponent(typeof(CharacterController), typeof(Animator))]
 public class Character : MonoBehaviour, IControllable, IViewable
 {
     public event Action OnChangedPosition;
