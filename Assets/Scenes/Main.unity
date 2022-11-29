@@ -426,7 +426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0 / 0
+  m_text: 100 / 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -596,7 +596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -608,7 +608,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49803922}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -855,6 +855,18 @@ Transform:
   m_Father: {fileID: 190882496}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &940671817 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 853134607, guid: c502937e2d8e574469513a292e1fe5bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154010354064403849}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac9baad065d25e44b9fb1e9437dc9cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1546,7 @@ GameObject:
   - component: {fileID: 1452932471}
   - component: {fileID: 1452932473}
   - component: {fileID: 1452932472}
+  - component: {fileID: 1452932474}
   m_Layer: 5
   m_Name: Camp Health
   m_TagString: Untagged
@@ -1602,6 +1615,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452932470}
   m_CullTransparentMesh: 1
+--- !u!114 &1452932474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452932470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8333a05c1b647e6aedb4617378c636a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 508039503}
+  _fillArea: {fileID: 1023531184}
+  _firecamp: {fileID: 940671817}
 --- !u!1 &1459645889
 GameObject:
   m_ObjectHideFlags: 0

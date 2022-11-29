@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider), typeof(Rigidbody))]
-public class FirecampController : MonoBehaviour
+public class Firecamp : MonoBehaviour
 {
     public event Action OnHealthChanged;
     public event Action OnCampDie;
@@ -20,6 +20,7 @@ public class FirecampController : MonoBehaviour
     private float _healthOneLog;
     private bool _isBurn = true;
 
+    public float MaxHealth => _maxHealth;
     public float Health
     {
         get => _health;
