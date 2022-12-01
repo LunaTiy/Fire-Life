@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GrabController : MonoBehaviour
 {
-    public event Action OnReleaseHand;
+    public event Action<bool> OnHandStateSwitched;
     
     private static readonly int GrabParameter = Animator.StringToHash("Grab");
 
@@ -34,6 +34,8 @@ public class GrabController : MonoBehaviour
         IsHold = true;
 
         _holdenItem.GetComponent<IBurnable>().OnBurned += OnBurnHandler;
+        
+        OnHandStateSwitched?.Invoke(IsHold);
     }
 
     public void Throw()
@@ -46,6 +48,8 @@ public class GrabController : MonoBehaviour
 
         _holdenItem = null;
         IsHold = false;
+        
+        OnHandStateSwitched?.Invoke(IsHold);
     }
 
     private static void ResetLocalTransform(Transform objTransform)
@@ -59,6 +63,6 @@ public class GrabController : MonoBehaviour
         _holdenItem = null;
         IsHold = false;
         
-        OnReleaseHand?.Invoke();
+        OnHandStateSwitched?.Invoke(IsHold);
     }
 }

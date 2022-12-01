@@ -15,7 +15,7 @@ public class UiHandController : MonoBehaviour, IPointerDownHandler
     [SerializeField] private GrabController _grabController;
     
     private static readonly int Notify = Animator.StringToHash("Notify");
-    private bool _canTake;
+    private bool _isNearItems;
 
     private void Start()
     {
@@ -25,13 +25,13 @@ public class UiHandController : MonoBehaviour, IPointerDownHandler
     private void OnEnable()
     {
         _grabChecker.OnGrabItemChanged += GrabItemChangeHandler;
-        _grabController.OnReleaseHand += ReleaseHandHandler;
+        _grabController.OnHandStateSwitched += HandStateSwitchedHandler;
     }
 
     private void OnDisable()
     {
         _grabChecker.OnGrabItemChanged -= GrabItemChangeHandler;
-        _grabController.OnReleaseHand -= ReleaseHandHandler;
+        _grabController.OnHandStateSwitched -= HandStateSwitchedHandler;
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -39,30 +39,23 @@ public class UiHandController : MonoBehaviour, IPointerDownHandler
         if (_grabController.IsHold)
         {
             _grabController.Throw();
-            _image.sprite = _emptyHand;
-            _animator.SetBool(Notify, _grabChecker.IsNearItem);
-
             return;
         }
 
-        if (!_canTake) return;
+        if (!_isNearItems) return;
         
         _grabController.StartAnimationGrab();
-        _image.sprite = _fullHand;
-        
         _animator.SetBool(Notify, false);
     }
 
     private void GrabItemChangeHandler(bool isNear)
     {
-        _canTake = isNear && !_grabController.IsHold;
-
-        _animator.SetBool(Notify, _canTake);
+        _isNearItems = isNear;
+        _animator.SetBool(Notify, _isNearItems && !_grabController.IsHold);
     }
 
-    private void ReleaseHandHandler()
+    private void HandStateSwitchedHandler(bool state)
     {
-        _image.sprite = _emptyHand;
-        _animator.SetBool(Notify, false);
+        _image.sprite = state ? _fullHand : _emptyHand;
     }
 }
