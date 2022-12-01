@@ -8,7 +8,7 @@ ModelImporter:
     second: Animation
   - first:
       74: -3510227432468033302
-    second: Elemental@Walk01
+    second: Walk
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -22,8 +22,7 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: "Invalid copied Avatar Rig Configuration:\n\tNo human bone found.
-      Ensure both rig type match\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -40,7 +39,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Elemental@Walk01
+      name: Walk
       takeName: Animation
       internalID: 0
       firstFrame: 0

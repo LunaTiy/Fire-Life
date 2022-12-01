@@ -4,12 +4,21 @@ using UnityEngine;
 public class GrabController : MonoBehaviour
 {
     public event Action OnReleaseHand;
+    
+    private static readonly int GrabParameter = Animator.StringToHash("Grab");
+
     [SerializeField] private Transform _hand;
     [SerializeField] private GrabChecker _grabChecker;
+    [SerializeField] private Animator _animator;
 
     private GameObject _holdenItem;
-    
+
     public bool IsHold { get; private set; }
+
+    public void StartAnimationGrab()
+    {
+        _animator.SetTrigger(GrabParameter);
+    }
 
     public void Grab()
     {

@@ -47,7 +47,7 @@ public class UiHandController : MonoBehaviour, IPointerDownHandler
 
         if (!_canTake) return;
         
-        _grabController.Grab();
+        _grabController.StartAnimationGrab();
         _image.sprite = _fullHand;
         
         _animator.SetBool(Notify, false);
