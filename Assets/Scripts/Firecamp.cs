@@ -7,9 +7,10 @@ public class Firecamp : MonoBehaviour
 {
     public event Action OnHealthChanged;
     public event Action OnCampDie;
-    
-    [SerializeField] private float _maxHealth = 100f;
-    [SerializeField] private float _health = 100f;
+
+    public const float MaxHealth = 100f;
+
+    [SerializeField] [Range(0, MaxHealth)] private float _health = 100f;
     [SerializeField] private float _lossHealthPerSecond = 2f;
     [Space]
     [SerializeField] private Transform _logsParent;
@@ -19,8 +20,7 @@ public class Firecamp : MonoBehaviour
     private int _countActiveLogs;
     private float _healthOneLog;
     private bool _isBurn = true;
-
-    public float MaxHealth => _maxHealth;
+    
     public float Health
     {
         get => _health;
@@ -34,9 +34,9 @@ public class Firecamp : MonoBehaviour
                 OnCampDie?.Invoke();
                 StopCoroutine(LoseHealthRoutine());
             }
-            else if (value > _maxHealth)
+            else if (value > MaxHealth)
             {
-                _health = _maxHealth;
+                _health = MaxHealth;
             }
             else
             {
@@ -78,7 +78,7 @@ public class Firecamp : MonoBehaviour
 
     private void ChangeLogsCount()
     {
-        int targetCountLogs = Mathf.RoundToInt(Health / _maxHealth * _countLogs);
+        int targetCountLogs = Mathf.RoundToInt(Health / MaxHealth * _countLogs);
 
         if (targetCountLogs == _countActiveLogs)
             return;
