@@ -11,6 +11,5 @@ public class GrabBehaviour : StateMachineBehaviour
             _controller = animator.gameObject.GetComponentInChildren<GrabController>();
         
         _controller.Grab();
-        Debug.Log("Grab exit");
     }
 }
