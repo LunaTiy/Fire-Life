@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
-public class Firewood : MonoBehaviour, IBurnable
+public class Firewood : MonoBehaviour, IBurnable, IGrabAvailable
 {
     public event Action OnBurned;
 
@@ -14,4 +14,6 @@ public class Firewood : MonoBehaviour, IBurnable
     {
         OnBurned?.Invoke();
     }
+
+    public GameObject GetItem() => gameObject;
 }

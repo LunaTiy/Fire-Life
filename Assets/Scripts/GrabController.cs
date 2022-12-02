@@ -22,10 +22,12 @@ public class GrabController : MonoBehaviour
 
     public void Grab()
     {
-        GameObject item = _grabChecker.GetFirstItem();
+        IGrabAvailable grabItem = _grabChecker.GetFirstGrabAvailableItem();
 
-        if (item == null)
+        if (grabItem == null)
             return;
+
+        GameObject item = grabItem.GetItem();
         
         item.transform.SetParent(_hand, false);
         ResetLocalTransform(item.transform);
