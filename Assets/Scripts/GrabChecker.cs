@@ -44,4 +44,10 @@ public class GrabChecker : MonoBehaviour
         
         return item;
     }
+
+    public void TryRemoveItem(IGrabAvailable item)
+    {
+        if (_nearItems.Contains(item))
+            _nearItems.Remove(item);
+    }
 }

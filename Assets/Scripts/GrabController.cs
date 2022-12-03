@@ -12,6 +12,7 @@ public class GrabController : MonoBehaviour
     [SerializeField] private Animator _animator;
 
     private GameObject _holdenItem;
+    private IGrabAvailable _grabAvailableItem;
 
     public bool IsHold { get; private set; }
 
@@ -28,6 +29,8 @@ public class GrabController : MonoBehaviour
             return;
 
         GameObject item = grabItem.GetItem();
+        _grabAvailableItem = item.GetComponent<IGrabAvailable>();
+
         
         item.transform.SetParent(_hand, false);
         ResetLocalTransform(item.transform);
@@ -49,6 +52,7 @@ public class GrabController : MonoBehaviour
         _holdenItem.transform.localScale = scale;
 
         _holdenItem = null;
+        _grabAvailableItem = null;
         IsHold = false;
         
         OnHandStateSwitched?.Invoke(IsHold);
@@ -62,7 +66,10 @@ public class GrabController : MonoBehaviour
 
     private void OnBurnHandler()
     {
+        _grabChecker.TryRemoveItem(_grabAvailableItem);
+        
         _holdenItem = null;
+        _grabAvailableItem = null;
         IsHold = false;
         
         OnHandStateSwitched?.Invoke(IsHold);
