@@ -3,7 +3,7 @@
 public class SpawnRoot : MonoBehaviour
 {
     [ContextMenu("Spawn all objects")]
-    private void SpawnAll()
+    public void SpawnAll()
     {
         var spawners = GetComponentsInChildren<Spawner>();
 
