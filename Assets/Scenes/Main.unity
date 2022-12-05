@@ -114560,6 +114560,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 853134607, guid: c502937e2d8e574469513a292e1fe5bd, type: 3}
+      propertyPath: _lossHealthPerSecond
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 896437648970923933, guid: c502937e2d8e574469513a292e1fe5bd,
         type: 3}
       propertyPath: m_RootOrder

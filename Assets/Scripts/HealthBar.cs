@@ -23,7 +23,7 @@ public class HealthBar : MonoBehaviour
 
     private void HealthChangeHandler()
     {
-        _text.text = $"{_firecamp.Health} / {Firecamp.MaxHealth}";
+        _text.text = $"{Mathf.RoundToInt(_firecamp.Health)} / {Mathf.RoundToInt(Firecamp.MaxHealth)}";
         _fillArea.fillAmount = _firecamp.Health / Firecamp.MaxHealth;
     }
 }
