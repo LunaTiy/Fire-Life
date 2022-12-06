@@ -63,15 +63,6 @@ public class Firecamp : MonoBehaviour
         Destroy(other.gameObject);
     }
 
-    public void ResetCamp()
-    {
-        Health = MaxHealth;
-        _isBurn = true;
-        
-        StopCoroutine(LoseHealthRoutine());
-        StartCoroutine(LoseHealthRoutine());
-    }
-
     private void GetLogs()
     {
         if (_logsParent == null)
