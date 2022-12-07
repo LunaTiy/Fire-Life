@@ -353,7 +353,7 @@ ParticleSystem:
   looping: 1
   prewarm: 0
   playOnAwake: 1
-  useUnscaledTime: 0
+  useUnscaledTime: 1
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -6252,7 +6252,7 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 918f06e849805464189af268ec211684, type: 3}
   m_Controller: {fileID: 9100000, guid: 9f3c0cc5f4a74f54084679b64ff5b41c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
