@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private bool _canPlay;
     private bool _isPlaying;
 
+    // ReSharper disable once MemberCanBePrivate.Global
     public bool IsPlaying
     {
         get => _isPlaying;
