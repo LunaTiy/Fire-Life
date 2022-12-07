@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class GameStateChanger : MonoBehaviour, IPointerDownHandler
+public class GameStateChanger : MonoBehaviour, IPointerUpHandler
 {
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private Image _gameStateChanger;
@@ -20,7 +20,7 @@ public class GameStateChanger : MonoBehaviour, IPointerDownHandler
         _gameManager.OnChangedGameState -= ChangeGameStateHandler;
     }
 
-    public void OnPointerDown(PointerEventData eventData)
+    public void OnPointerUp(PointerEventData eventData)
     {
         _gameManager.ChangeGameState();
     }
