@@ -37,6 +37,15 @@ public class GameManager : MonoBehaviour
         _firecamp.OnCampDie -= CampDieHandler;
     }
 
+    public void Play()
+    {
+        if (!_canPlay)
+            return;
+        
+        IsPlaying = true;
+        Time.timeScale = 1f;
+    }
+
     public void Reload()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -48,18 +57,17 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public void Play()
-    {
-        if (!_canPlay)
-            return;
-        
-        IsPlaying = true;
-        Time.timeScale = 1f;
-    }
-
     public void Exit()
     {
         Application.Quit();
+    }
+
+    public void ChangeGameState()
+    {
+        if(IsPlaying)
+            Pause();
+        else
+            Play();
     }
 
     private void CampDieHandler()
