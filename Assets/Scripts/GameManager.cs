@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     private bool _canPlay;
     private bool _isPlaying;
-    private float _gameTimeScale;
 
     public bool IsPlaying
     {
@@ -24,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        _gameTimeScale = Time.timeScale;
+        _canPlay = true;
         Pause();
     }
 
@@ -38,12 +37,9 @@ public class GameManager : MonoBehaviour
         _firecamp.OnCampDie -= CampDieHandler;
     }
 
-    public void StartNewGame()
+    public void Reload()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
-        _canPlay = true;
-        IsPlaying = true;
     }
 
     public void Pause()
@@ -58,7 +54,7 @@ public class GameManager : MonoBehaviour
             return;
         
         IsPlaying = true;
-        Time.timeScale = _gameTimeScale;
+        Time.timeScale = 1f;
     }
 
     public void Exit()
